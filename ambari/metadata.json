@@ -1,0 +1,24 @@
+{
+  "name": "salekseev-ambari",
+  "version": "0.1.0",
+  "author": "salekseev",
+  "summary": "This module installs Ambari (the hadoop management and monitoring system) agent and/or server.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/salekseev/puppet-ambari",
+  "project_page": "https://github.com/salekseev/puppet-ambari",
+  "issues_url": "https://github.com/salekseev/puppet-ambari/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6"
+      ]
+    }
+  ]
+}
